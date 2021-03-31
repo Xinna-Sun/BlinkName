@@ -126,21 +126,6 @@ void loop() {
   digitalWrite(led2, LOW);
   delay(3000);
   
-  //Morse code for N
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
-  delay(3000);
-  digitalWrite(led1, LOW);
-  digitalWrite(led2, LOW);
-  delay(1000);
-  
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
-  delay(1000);
-  digitalWrite(led1, LOW);
-  digitalWrite(led2, LOW);
-  delay(3000);
-  
   //Morse code for A
   digitalWrite(led1, HIGH);
   digitalWrite(led2, HIGH);
